@@ -1,3 +1,82 @@
+/*creature JavaScript */
+
+document.addEventListener('DOMContentLoaded', () => {
+  const creatureName = document.querySelector('.name-text')?.textContent?.trim();
+  const titleEl = document.querySelector('h1.heading_font');
+
+  if (creatureName && titleEl && !titleEl.textContent.includes(creatureName)) {
+    titleEl.textContent += ` · ${creatureName}`;
+  }
+});
+
+
+/* Sitewide JavaScript follows below */
+
+/* ADDED BY CRYSTAL FROM RAVENSPACE */
+
+/* Delete select sections from native Scalar header */
+
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> desktopTitleWrapper, #desktopTitleWrapper').remove();
+  });
+});
+
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> indexLink, #indexLink').remove();
+  });
+});
+
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> ScalarHeaderHelp, #ScalarHeaderHelp').remove();
+  });
+});
+
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> lenses_menu, #lenses_menu').remove();
+  });
+});
+
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> vis_menu, #vis_menu').remove();
+  });
+});
+
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> scalar_menu, #scalar_menu').remove();
+  });
+});
+
+	$(document).ready(function() {
+  	$('body').on('pageLoadComplete',function() {
+  	$('body').find('> userMenu, #userMenu').remove();
+  	});
+});
+
+/* Delete select sections from native Scalar footer including comments section */
+
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> comment_control, #comment_control').remove();
+  });
+});
+
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> incoming_comments, #incoming_comments').remove();
+  });
+});
+$(document).ready(function() {
+  $('body').on('pageLoadComplete',function() {
+  $('body').find('> scalar-credits, #scalar-credit').remove();
+  });
+});
+
 function toggleHotspot(id) {
   const allPopups = document.querySelectorAll('.hotspot-popup');
   allPopups.forEach(popup => {
