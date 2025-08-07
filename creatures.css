@@ -1,0 +1,1729 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Cherokee:wght@100..900&display=swap');
+
+
+/* Page wrapper */
+.page {
+  max-width: none;
+  margin: auto;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+  max-width: 104rem !important;
+  min-height: fit-content !important;
+}
+
+/* Typography */
+h2, h3, .section-header {
+  text-align: center;
+  font-family: "Libre Baskerville", serif !important;
+  font-size: 2rem;
+  color: #574949;
+}
+
+@media (min-width: 768px) {
+  h2, h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  h2, h3 {
+    font-size: 2.5rem;
+  }
+}
+
+.body_copy{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  margin: 44px 0 40px 0;
+}
+
+p {
+  font-family: "Archivo", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+/* Buttons */
+.button,
+.button2 {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: auto;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .button, .button2 {
+    width: 100%;
+  }
+}
+
+.button {
+  background-color: #2F5971;
+  border: none;
+  color: white;
+}
+
+.button2 {
+  border: 0.3125rem solid #2F5971;
+  color: #2F5971;
+  font-weight: 600;
+  width: fit-content;
+  padding: 1rem 5rem;
+  margin: 0;
+}
+
+/* Header + Navbar */
+.navbar {
+  background-color: #24573C;
+  margin-bottom: 0;
+}
+
+.headerIcon {
+  color: white !important;
+}
+
+/* Footer */
+#footer {
+  background-color: #574949;
+  height: 7rem !important;
+}
+
+
+/* Typography */
+h2, h3, .section-header {
+  text-align: center;
+  font-family: "Libre Baskerville", serif !important;
+  font-size: 2rem;
+  color: #574949;
+}
+
+@media (min-width: 768px) {
+  h2, h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  h2, h3 {
+    font-size: 2.5rem;
+  }
+}
+
+.body_copy{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  margin: 44px 0 40px 0;
+}
+
+p {
+  font-family: "Archivo", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+/* Buttons */
+.button,
+.button2 {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: auto;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .button, .button2 {
+    width: 100%;
+  }
+}
+
+.button {
+  background-color: #2F5971;
+  border: none;
+  color: white;
+}
+
+.button2 {
+  border: 0.3125rem solid #2F5971;
+  color: #2F5971;
+  font-weight: 600;
+  width: fit-content;
+  padding: 1rem 5rem;
+  margin: 0;
+}
+
+/* Header + Navbar */
+.navbar {
+  background-color: #24573C;
+  margin-bottom: 0;
+}
+
+.headerIcon {
+  color: white !important;
+}
+
+/* Sitewide styling follows below */
+
+/* ADDED BY VINCENT DESIGN */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Cherokee:wght@100..900&display=swap');
+
+#mobileMainMenuSubmenus{
+  position: fixed !important;
+}
+
+.heading_font{
+   font-family: "Archivo", sans-serif !important;
+  font-weight: 700;
+  margin-bottom: 0 !important;
+  position: relative !important;
+}
+
+h3{
+    font-family: "Libre Baskerville", serif !important;
+   font-size: 28px !important;
+}
+
+h4{
+    font-family: "Libre Baskerville", serif !important;
+    font-style: italic !important;
+   font-size: 24px !important;
+}
+
+.heading_font h4{
+    font-style: italic !important;
+}
+
+/* Header + Navbar */
+.navbar {
+  background-color: #24573C;
+  margin-bottom: 0;
+}
+
+
+.header {
+  display: block !important;
+}
+
+.headerIcon {
+  color: white !important;
+}
+
+p {
+  font-size: 16px !important;
+  font-family: "Archivo", sans-serif !important;
+  margin: 1.5rem 0 !important;
+}
+
+.media_tab.select{
+  background: none;
+}
+
+.media_description, .mediainfo div {
+  font-size: 18px !important;
+  color:  #333 !important;
+}
+
+/* Inner page hero 
+.home-hero {
+  min-height: 75vh;
+  background: #f5f0e5 url('https://developmentserver.ravenspacepublishing.org/teuton-build-copy-1/media/hero-background.png') top center / cover no-repeat;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+} */
+
+@media (max-width: 768px) {
+  .home-hero {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-hero {
+    padding: 8rem;
+  }
+}
+
+.title_card h1 {
+  font-family: "Libre Baskerville", serif !important;
+  color: #762222;
+  font-size: 1.9rem; /* Mobile-friendly */
+  font-weight: normal;
+  font-style: italic !important;
+  margin-bottom: 0;
+}
+
+/* Larger font on tablets and up */
+@media (min-width: 768px) {
+  .title_card h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title_card h1 {
+    font-size: 3rem;
+  }
+}
+
+
+.home-hero h1 {
+  font-size: 3.5rem;
+  margin-top: 25rem;
+  margin-bottom: 0.5rem;
+  color: #762222;
+  font-family: "Libre Baskerville", serif !important;
+  font-weight: 400;
+  text-align: start;
+}
+
+@media (min-width: 768px) {
+  .home-hero h1 {
+    font-size: 5rem;
+    margin-top: 12rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-hero h1 {
+    font-size: 6.1875rem;
+    margin-top: 18rem;
+    text-align: center;
+  }
+}
+
+.path-nav {
+  z-index: 10;
+}
+
+.path-breadcrumb,
+.path-breadcrumb > a {
+  color: #8A7373 !important;
+}
+
+.image_header {
+  position: relative;
+  background-image: url("https://developmentserver.ravenspacepublishing.org/teuton-build-copy-1/media/hero-background.png")  !important;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 63rem !important;
+  z-index: 1;
+  overflow-x: hidden;
+  box-sizing: border-box;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+.image_header .title_card {
+  width: 100%;
+  max-width: 106rem;
+  margin: auto;
+  padding:  0 1.5rem;
+  text-shadow: none;
+  text-align: center;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .image_header .title_card {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+}
+
+/* Tablet and up — center content */
+@media (min-width: 768px) {
+  .image_header .title_card {
+    align-items: center;
+  }
+}
+
+a.nav_btn.primary,
+#back-btn {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8 !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.4rem;
+  color: #2F5971 !important;
+  transition: background-color 0.2s ease;
+}
+
+/* Widget cards */
+.center-block {
+  display: block;
+  margin-right: auto;
+  height: 200px;
+  width: 100%;
+  margin-left: auto;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 4px;
+}
+
+.cardContainer > div {
+  min-width: 20rem;
+}
+
+@media (max-width: 768px) {
+  .cardContainer > div {
+    width: 100%;
+  }
+}
+
+.cardContainer.row {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr); /* default: 1 per row */
+}
+
+@media (min-width: 600px) {
+  .cardContainer.row {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  }
+}
+
+@media (min-width: 992px) {
+  .cardContainer.row {
+    grid-template-columns: repeat(4, 1fr) !important; /* 4 columns */
+  }
+}
+
+.widget_card > .well {
+  max-width: 106rem;
+  width: 100% !important;
+}
+
+.row:before {
+  display: none;
+}
+
+.widgetElement .cardContainer .thumbnail {
+  height: auto;
+  margin-bottom: 0;
+  border: 2px solid #A6A6A6 !important;
+}
+
+.card .thumbnail_container {
+  background-color: #F3FAFA;
+  padding: 1.5rem;
+}
+
+.thumbnail .caption {
+  min-height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F3FAFA;
+  padding: 1.5rem !important;
+  gap: 1rem;
+}
+
+.clearfix {
+  display: none;
+}
+
+.full {
+  padding: 0 2rem !important;
+}
+
+.cardContainer .caption h4 {
+  font-family: "Libre Baskerville", serif !important;
+  font-style: italic !important;
+  color: #1D536D;
+  line-height: 1.3 !important;
+  font-size: 1.6rem !important;
+}
+
+.card hr {
+  display: none;
+}
+
+.description-sm, .description{
+  font-family: "Noto Sans Cherokee", sans-serif;
+  font-style: normal !important;
+  font-size: 2rem !important;
+}
+
+.title_card .description {
+  color: #762222;
+  padding-left: 0 !important;
+  font-size: 116px;
+  font-weight: 500;
+  line-height: 1;
+ text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .title_card .description {
+    font-size: 85px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title_card .description {
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title_card .description {
+    font-size: 47px;
+  }
+}
+
+
+.btn-default {
+  border: 0.3125rem solid #2F5971;
+  color: #2F5971;
+  font-weight: 600;
+  width: fit-content;
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  margin: 0;
+  background-color: #F3FAFA;
+}
+
+
+/* Footer */
+#footer {
+  background-color: #8A7373 !important;
+  min-height: 7rem !important;
+}
+
+/* test universal footer styles */
+
+/* Footer */
+
+#footer{
+  background-color: #8A7373;
+  min-height: 7rem !important;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  overflow: visible; /* allow pseudo-element to overflow */
+  color: white !important;
+  z-index: 1; /* make sure footer content is above background if needed */
+  margin-top: 12rem !important;
+}
+
+#publisher-credit {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  align-items: center;
+  color: white;
+  margin: 0 !important;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 1200px; /* keeps content centered and not too wide */
+}
+
+#publisher-credit > :nth-child(2) {
+  margin-left: auto; /* Push this and everything after it to the right */
+  margin-right: 1rem;
+}
+
+#publisher-credit a{
+  color: white !important;
+}
+
+/* Add spacing between the last two items */
+#publisher-credit > :nth-child(3) {
+  margin-left: 1rem;
+}
+
+/* Optional: Add spacing below on small screens */
+@media (max-width: 600px) {
+  #publisher-credit {
+    gap: 0.5rem;
+  }
+
+  #publisher-credit > :nth-child(2),
+  #publisher-credit > :nth-child(3) {
+    margin-left: 0;
+  }
+}
+
+/* test VDI  nav styles do not delete */
+
+#mainMenuInside#mainMenuInside {
+    border-right: 2px solid #3a475a;
+    padding-bottom: 0;
+}
+
+#mainMenuSubmenus#mainMenuSubmenus ol a:not(.expand), #mainMenuInside#mainMenuInside .top a, #mainMenuInside#mainMenuInside .bottom a, .navbar li.mainMenu>.mainMenuDropdown>#mainMenuInside>li>ol>li>a  {
+    display: block;
+    color: white;
+    -webkit-text-fill-color: white;
+    position: absolute;
+    width: auto;
+    left: 0;
+    height: 4rem;
+    line-height: 2rem;
+    right: 4rem;
+    padding: 1rem 1rem 1rem 2rem !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0  !important;
+   text-align: start;
+}
+
+#mainMenuInside#mainMenuInside .top a{
+  font-size: 15px !important;
+  font-weight: 600 !important;
+    font-family: "Libre Baskerville", serif !important;
+    font-stretch: extra-condensed !important;
+}
+
+.header__expand, #mainMenuInside#mainMenuInside ol a.expand, #mainMenuSubmenus#mainMenuSubmenus ol a.expand {
+    position: absolute;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 4rem !important;
+    height: 4rem !important;
+    left: auto;
+    text-align: center;
+    padding: 0 !important;
+    line-height: 2rem;
+    background-color: #475873;
+    border-left: 1px solid #3a475a;
+}
+
+#mainMenuInside#mainMenuInside .rightArrowIcon, #mainMenuSubmenus#mainMenuSubmenus .rightArrowIcon {
+    height: 4rem;
+    background-size: 3rem;
+    padding: 0;
+    width: 4rem;
+}
+
+#mainMenuInside#mainMenuInside h2, .navbar li.mainMenu>.mainMenuDropdown>#mainMenuInside>li.header h2{
+  margin-left: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Archivo, sans-serif !important;
+  font-size: 2rem;
+}
+
+.mainMenuDropdown>#mainMenuInside>li>ol>li>a.expand, .navbar li.mainMenu>.mainMenuDropdown>#mainMenuInside>li>ol>li>a.expand, .tocMenu .expandedPage .relationships ol>li>a.expand{
+    margin-right: 0;
+}
+
+#mainMenuSubmenus#mainMenuSubmenus .relationships{
+    color: white;
+    -webkit-text-fill-color: white;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.navbar li.mainMenu>.mainMenuDropdown>#mainMenuInside>li>ol>li:before, .navbar li.mainMenu>.mainMenuDropdown>#mainMenuInside>li>ol>li>a:first-child:before, .tocMenu .expandedPage .relationships ol>li:before, .tocMenu .expandedPage .relationships ol>li.visited>a:first-child:before, .expandedPage .relationships ol>li>a:first-child:before{
+  display: none;
+}
+
+#mainMenuSubmenus#mainMenuSubmenus .expandedPage {
+    background-color: #475873;
+    border-left: 10px solid #3a475a;
+    background-repeat: no-repeat;
+    background-size: 370px 154px;
+    border-left: 10px solid #3a475a;
+    border-right: 1px solid #3a475a;
+}
+.navbar li.mainMenu>.mainMenuDropdown>#mainMenuInside>li.top{
+  padding-top: 0 !important;
+  margin-bottom: 0;
+}
+
+.navbar li.mainMenu>.mainMenuDropdown>#mainMenuInside>li>ol>li>a, .tocMenu .expandedPage .relationships ol>li>a {
+    position: absolute;
+    width: auto;
+    left: 0;
+    padding-left: 3.5rem;
+    margin-left: 3rem;
+    right: 2.2rem;
+    outline-color: #fff;
+}
+
+.tocMenu .expandedPage .relationships strong{
+  padding-left: 0;
+}
+
+#mainMenuInside#mainMenuInside li.visited>a, #mainMenuSubmenus#mainMenuSubmenus li.visited>a {
+    color: #a4b0c1;
+    -webkit-text-fill-color: #a4b0c1;
+}
+
+#mainMenuInside#mainMenuInside, .navbar .mainMenuDropdown>#mainMenuInside>li, #mainMenuInside#mainMenuInside .body>ol>li:first-child a:not(.expand), #mainMenuInside#mainMenuInside, .navbar .mainMenuDropdown>#mainMenuInside>li, #mainMenuInside#mainMenuInside .body>ol>li:first-child a:not(.expand), #mainMenuInside#mainMenuInside a {
+  font-family: "Libre Baskerville", serif !important;
+  font-stretch: extra-condensed !important;
+}
+
+#mainMenuInside .body>ol>li a:not(.expand), #mainMenuInside#mainMenuInside .body>ol>li:first-child a:not(.expand){
+    border-left: 10px solid var(--color-default) !important;
+font-size: 16px;
+    font-family: "Libre Baskerville", serif !important;
+}
+
+#mainMenuInside {
+    --color-1: #b73323;
+    --color-2: #0d5065;
+    --color-3: #157473;
+    --color-4: #d68353;
+    --color-default: #3a475a;
+  font-size: 26px !important;
+
+}
+
+.navbar .mainMenuDropdown>#mainMenuInside {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: inherit;
+        border-right: 2px solid #070707;
+        padding: 3rem 0;
+        width: 38rem;
+        overflow-y: auto;
+}
+
+.header__li, #mainMenuInside#mainMenuInside ol li, #mainMenuSubmenus#mainMenuSubmenus ol li, #mainMenuInside#mainMenuInside .top, #mainMenuInside#mainMenuInside .bottom {
+    display: block;
+    height: 4rem !important;
+    box-sizing: content-box;
+    border-top: 1px solid #3a475a;
+
+  font-size: 14rem !important;
+}
+#mainMenuInside#mainMenuInside ol li{
+  margin-bottom: 0;
+
+}
+
+#mainMenuInside .body>ol>li:nth-child(1) a:not(.expand) { border-left-color: var(--color-default); }
+#mainMenuInside .body>ol>li:nth-child(2) a:not(.expand) { border-left-color: var(--color-default); }
+#mainMenuInside .body>ol>li:nth-child(3) a:not(.expand) { border-left-color: var(--color-default); }
+#mainMenuInside .body>ol>li:nth-child(4) a:not(.expand) { border-left-color: var(--color-default); }
+
+
+/* ADDED BY CRYSTAL FROM RAVENSPACE */
+
+/* Text content area to full width */
+.body_copy {max-width:none;}
+
+.page {
+  max-width: none !important;
+  padding: 0;
+ margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  header,
+  span {
+    max-width: 106rem !important;
+    font-family: "Libre Baskerville", serif;
+  }
+}
+
+.pillarbox{
+  background-color: transparent !important;
+}
+
+h2,
+h3 {
+  text-align: center;
+  font-family: "Libre Baskerville", serif !important;
+  font-size: 2rem;
+  line-height: 1;
+
+  @media (min-width: 768px) {
+    font-size: 2.2rem;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 2.5rem;
+  }
+}
+
+a {
+  text-align: center;
+  display: block;
+}
+
+hr{
+  margin-top: 44px;
+  margin-bottom: 40px;
+}
+
+p{
+  font-family: "Archivo", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.button,
+.button2 {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: auto;
+  white-space: nowrap;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.button {
+  background-color: #2F5971;
+  border: none;
+  color: white;
+}
+
+.button2 {
+  border: 0.3125rem solid #2F5971;
+  color: #2F5971;
+  font-weight: 600;
+  width: fit-content;
+  padding: 1rem 5rem;
+  margin: 0;
+}
+
+.image-left {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 4rem;
+  padding: 2rem;
+  max-width: 106rem;
+  margin: 0 1.5rem !important;
+  background: #f5f0e5 url('https://developmentserver.ravenspacepublishing.org/the-cherokee-natural-world-templates/media/homepage-hero-blank.png') left / cover no-repeat;
+}
+
+.image-left > .div1,
+.image-left > .div2 {
+  grid-area: unset;
+}
+
+.div1 {
+  position: relative;
+  z-index: 1;
+}
+
+.div1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: url('https://developmentserver.ravenspacepublishing.org/the-cherokee-natural-world-templates/media/animals-bg-letters.png') top left / contain no-repeat;
+  z-index: -1;
+  pointer-events: none;
+  margin-left: -42%;
+  margin-top: 7%;
+}
+
+.div2 {
+  max-width: 65% !important;
+}
+
+/* Mobile: make full width */
+@media (max-width: 767px) {
+  .div2 {
+    max-width: 100% !important;
+  }
+}
+
+
+.div2 p {
+  margin: 0 !important;
+}
+
+.image-left p {
+  margin-bottom: 0.625rem;
+}
+
+.button2 {
+  padding: 0.6rem 2rem;
+  font-size: 1.5rem;
+}
+
+/* Tablet and up: switch to row layout */
+@media (min-width: 1024px) {
+  .image-left {
+    flex-direction: row;
+    padding: 4rem;
+    margin: 0 3rem !important;
+  }
+
+  .image-left > .div1 {
+    order: 1;
+  }
+
+  .image-left > .div2 {
+    order: 2;
+  }
+}
+
+/* Desktop: wider margins */
+@media (min-width: 1280px) {
+  .image-left {
+    padding: 8rem;
+    margin: auto !important;
+  }
+}
+
+.image-left > .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;}
+
+.image-left > .div2 {
+  grid-area: 1 / 2 / 2 / 4;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @media (max-width: 900px) {
+    padding-left: 0;
+  }
+}
+
+ .div2 h2, .div2 h3{
+  margin: 0;
+  padding: 0 !important;
+  width: fit-content;
+}
+
+.div2 h2{
+  margin-bottom: 2rem;
+}
+
+.div2 h3{
+  font-family: "Archivo", sans-serif !important;
+  font-weight: 550;
+  font-style: normal;
+  margin: 1rem 0 !important;
+}
+
+ .mediaObject img {
+  min-width: 100% !important;
+  object-fit: cover;
+  object-position: top;
+  max-height: 472px !important;
+  border-radius: 0.5rem;}
+
+/* Mobile only: add horizontal padding */
+@media (max-width: 767px) {
+  .mediaObject img {
+    padding: 0 2rem;
+  }
+}
+
+
+.wrapped_slot.left_slot>.mediaelement{
+  margin-right: 0 !important;
+  width: auto !important;
+}
+
+.home-hero {
+  position: relative;
+  min-height: 85vh;
+  background: #f5f0e5 url('https://developmentserver.ravenspacepublishing.org/the-cherokee-natural-world-templates/media/homepage-hero-blank.png') top center / cover no-repeat;
+  padding: 0 8rem; /* default: desktop */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 19rem !important;
+  padding-bottom: 4rem !important;
+}
+
+/* Tablet */
+@media (max-width: 1279px) {
+  .home-hero {
+    padding: 0 4rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .home-hero {
+    padding: 0 2rem;
+  }
+}
+
+
+.home-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px; /* adjust height to fit image */
+  background-image: url('https://developmentserver.ravenspacepublishing.org/the-cherokee-natural-world-templates/media/homepage-decoration-color.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-text {
+  position: relative;
+  display: block; /* Ensure it's a block-level container */
+  width: 100%;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+}
+
+.hero-text::before {
+  content: "";
+  position: absolute;
+  top: -84%; /* push it up */
+  left: 0;
+  right: 0;
+  height: 299%; /* make it taller */
+  background-image: url(https://developmentserver.ravenspacepublishing.org/the-cherokee-natural-world-templates/media/homepage-hero-letters.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  z-index: 0; /* stays behind text */
+  pointer-events: none;
+}
+
+.home-hero h1 {
+  font-size: 3.5rem;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem;
+  color: #762222;
+  font-family: "Libre Baskerville", serif !important;
+  font-weight: 400;
+  text-align: center;
+
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+    margin-top: 12rem;
+  text-align: center;
+
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 5.1875rem;
+    margin-top: 18rem;
+  text-align: center;
+
+  }
+}
+
+.cherokee-script {
+  font-size: 6rem;
+  color: #D6B6B2;
+  font-family: "Noto Sans Cherokee", sans-serif !important;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  line-height: 1 !important;
+  padding: 0 !important;
+
+  @media (min-width: 768px) {
+    font-size: 7rem;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 10.5rem;
+  }
+}
+
+.hero-illustrations {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  width: 100% !important;
+  z-index: 2;
+  max-width: 106rem;
+}
+
+@media (min-width: 768px) {
+  .hero-illustrations {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 1.5rem 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-illustrations {
+    gap: 3rem;
+    margin: 2rem 0;
+  }
+}
+
+.hero-img {
+  max-height: 10rem !important;
+
+  @media (min-width: 1024px) {
+    max-height: 20rem !important;
+  }
+
+@media (min-width: 1280px) {
+    max-height: 25rem !important;
+  }
+
+  @media (min-width: 768px) {
+    max-height: 12rem;
+  }
+
+  @media (min-width: 1536px) {
+    max-height: 26rem !important;
+  }
+}
+
+.hero-title{
+  font-family: "Libre Baskerville", serif !important;
+  color: #9C3632;
+  font-style: normal !important;
+  line-height: 1;
+  margin-top: 0 !important;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  color: #9C3632;
+  font-weight: 500;
+  margin: 1rem 0;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 3.5rem;
+  margin: 3rem 0;
+
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 5rem;
+  margin: 3rem 0;
+
+  }
+}
+
+.authors {
+  font-size: 16px !important;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-family: "Libre Baskerville", serif !important;    
+
+  strong {
+    font-weight: 600;
+    font-size: 18px !important;
+ font-family: "Archivo", sans-serif !important;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  small {
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 0.25rem;
+  }
+}
+
+.credits {
+  font-size: 1.8rem;
+  color: #333;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 !important;
+  font-family: "Libre Baskerville", serif !important;
+
+  strong {
+    font-style: normal;
+   font-family: "Archivo", sans-serif !important;
+    font-weight: 600;
+  }
+}
+
+ h2, .section-header{
+  font-size: 3.8rem;
+  font-weight: 500;
+  color: #574949;
+  font-family: "Libre Baskerville", serif !important;
+  margin-bottom: 1rem !important;
+  line-height: 1.3 !important;
+}
+
+
+ h3, .sub-header{
+ font-family: "Libre Baskerville", serif !important;
+  margin-top: 0;
+ font-weight: 500;
+ font-style: italic;
+ line-height: 1.3 !important;
+}
+
+.home_stories{
+  align-items: center;
+  iframe{
+  width: 100%;
+  max-width: 106rem !important;
+  min-height: 52rem;
+  height: 100%;
+  padding: 0 2rem;
+
+@media (min-width: 768px) {
+    padding: 0 3rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 0 8rem;
+  }
+}
+}
+
+.wolf-container {
+  width: 100%;
+  padding: 0 1.5rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .wolf-container {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wolf-container {
+    max-width: 106rem;
+    padding: 0; /* use centered layout instead of side padding */
+  }
+}
+
+
+.wolf{
+  max-height: 13.593125rem !important;
+  width: fit-content;
+}
+
+.section-image{ 
+  width: 100%;
+  height: auto;
+  padding: 0 1.5rem;
+
+  @media (min-width: 768px) {
+    padding: 0 3rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 0 8rem;
+  }
+}
+
+.contents {
+  padding: 0 2rem; /* default: mobile */
+  max-width: 106rem;
+  margin: auto;
+}
+
+/* Tablet and large screen (≥768px and <1200px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .contents {
+    padding: 0 4rem;
+  }
+}
+
+/* Extra large screen (≥1200px) */
+@media (min-width: 1200px) {
+  .contents {
+    padding: 0;
+  }
+}
+
+.image-contents{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  max-width: 16rem;
+  height: auto;
+  margin: auto;
+}
+
+.contents h2, .cherokee-cosmos h2 {
+ margin-top: 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.card {
+  background-color: #E5F1F6;
+  border: 2px solid #BDA4A4;
+  border-radius: 6px;
+  color: #2F5971;
+  height: 21rem;
+  padding: 1.25rem;
+  transition: box-shadow 0.2s ease-in-out;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  text-align: start !important;
+}
+
+.card a {
+  text-decoration: none;
+  text-align: start !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 , .card em {
+  margin: 0;
+  color: #2F5971;
+  text-align: start !important;
+  font-weight: 600;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+.card em {
+  font-style: italic;
+}
+
+.card p {
+  margin: 0.75rem 0 0 0;
+  line-height: 1.4;
+}
+
+.card .disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.annotation {
+  border-radius: 50%;
+  background-color: #e9c63f;
+  border: 2px solid white;
+  width: 24px !important;
+  height: 24px !important;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.navbar{
+  background-color: #24573C;
+  margin-bottom: 0;
+}
+
+header{
+ display: none !important;
+}
+
+.headerIcon{
+  color: white !important;
+}
+
+.menuIcon{
+ display: none !important;
+}
+
+#footer{
+  display: none !important;
+}
+
+#footer-homepage {
+  background-color: #8A7373;
+  min-height: 7rem !important;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  overflow: visible; /* allow pseudo-element to overflow */
+  color: white !important;
+  z-index: 1; /* make sure footer content is above background if needed */
+  margin-top: 12rem !important;
+}
+
+#footer-homepage::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  left: 0;
+  right: 0;
+  max-width: 106rem;
+  margin: auto;
+  width: 100%;
+  height: 94px;
+  background-image: url("https://developmentserver.ravenspacepublishing.org/the-cherokee-natural-world-templates/media/footer-section-end.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0; /* behind footer content */
+  pointer-events: none;
+}
+
+#publisher-credit {
+  display: flex;
+  flex-wrap: wrap; /* Ensures responsiveness on small screens */
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+#publisher-credit > :nth-child(2) {
+  margin-left: auto; /* Push this and everything after it to the right */
+}
+
+/* Add spacing between the last two items */
+#publisher-credit > :nth-child(3) {
+  margin-left: 1rem;
+}
+
+/* Optional: Add spacing below on small screens */
+@media (max-width: 600px) {
+  #publisher-credit {
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  #publisher-credit > :nth-child(2),
+  #publisher-credit > :nth-child(3) {
+    margin-left: 0;
+  }
+}
+
+/* painting pop ups test */
+
+.cherokee-cosmos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* mobile height */
+  background-image: url('https://developmentserver.ravenspacepublishing.org/the-cherokee-natural-world-templates/media/eagle-section-header.png?t=1750866689737');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  z-index: 0;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .cherokee-cosmos::before {
+    height: 130.84px;
+  }
+}
+
+.cherokee-cosmos {
+  position: relative;
+  text-align: center;
+  max-width: 1412px;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 100px; /* match mobile pseudo height */
+  width: 100%;
+  overflow: visible !important;
+  align-items: center !important;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .cherokee-cosmos {
+    padding-top: 130.84px; /* match desktop pseudo height */
+  }
+}
+
+.cherokee-cosmos {
+  position: relative;
+  text-align: center;
+  max-width: 1412px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  padding-top: 155.84px;
+  width: 100%;
+  overflow: visible !important; /* MUST be visible */
+    align-items: center !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.cosmos-image {
+  width: 100%;
+  max-width: 106rem;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  padding: 0 2rem; /* default: mobile */
+  cursor: pointer;
+}
+
+/* Tablet and large screen (≥768px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cosmos-image {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+/* Extra large screen (≥1200px) */
+@media (min-width: 1200px) {
+  .cosmos-image {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+/* Hotspot base style - egg appearance */
+
+.hotspot-marker {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 0; /* This hides the   character */
+}
+
+.hotspot-marker::after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  background-color: #DABC2B;
+  border-radius: 50%;
+  display: block;
+}
+
+/* Individual hotspot positioning */
+.hotspot-forrest-dweller {
+  top: 30%;
+  left: 45%;
+}
+
+/* Popup styling */
+
+/* Popup styling */
+.hotspot-popup {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 3rem;
+  width: 360px;
+  z-index: 20;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: left;
+  justify-content: center;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .hotspot-popup {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+    max-width: 90% !important;
+    width: 360px;
+    padding: 2rem !important;
+    top: auto !important;
+    bottom: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hotspot-popup {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+        max-width: 90% !important;
+        width: 100%;
+    padding: 2rem !important;
+    top: auto !important;
+    bottom: 2rem;
+  }
+}
+
+.hotspot-image-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 106rem;
+  margin: 0 auto;
+}
+
+.popup-image {
+    max-width: 187px;
+    width: 100%;
+    height: 99px;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.popup-title-cherokee {
+  font-weight: bold;
+  font-family: 'Noto Sans Cherokee', serif;
+  margin-bottom: 0.25rem;
+  padding: 0;
+  text-align: start;
+}
+
+.popup-title-en {
+  font-weight: normal;
+  color: #444;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  text-align: start;
+}
+
+
+.popup-description {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.popup-button {
+  display: inline-block;
+  background-color: #2F5971;
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.popup-button:hover {
+  background-color: #244558; /* Slightly darker blue */
+  transform: translateY(-2px); /* Subtle lift effect */
+  color: #fff;
+  opacity: 1;
+}
+
+
+.popup-button svg {
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  fill: currentColor;
+}
+
+
+.popup-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  font-size: 3.2rem;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
